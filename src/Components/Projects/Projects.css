@@ -1,0 +1,63 @@
+.Projects__container ul li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.Projects__container p {
+  text-align: left;
+  font-style: italic;
+}
+
+.Projects__container h2 {
+  text-align: center;
+}
+
+.Projects__proj_description {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.fa_quote_right {
+  align-self: flex-end;
+  margin-bottom: 16px;
+}
+
+.fa_quote_left {
+  margin-top: 16px;
+}
+
+.techStack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.appLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.appLinks a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 2px;
+}
+
+@media only screen and (max-width: 800px) {
+  .Projects__container p {
+    text-align: center;
+    text-indent: 0;
+  }
+
+  .Projects__proj_description {
+    width: 90%;
+  }
+}
