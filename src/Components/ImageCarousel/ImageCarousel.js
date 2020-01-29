@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ImageSlide from './ImageSlide';
 import Arrow from './Arrow';
+import StyleIcon from '../StyleIcon/StyleIcon';
 
 export default class ImageCarousel extends Component {
   constructor(props) {
@@ -41,14 +42,22 @@ export default class ImageCarousel extends Component {
         <Arrow 
           direction="left"
           clickFunction={ this.previousSlide }
-          glyph="&#9664;" />
+          glyph={StyleIcon({
+            style: 'left'
+          })}
+          // glyph="&#9664;" 
+          />
 
         <ImageSlide url={ this.props.imgUrls[this.state.currentImageIndex] } />
 
         <Arrow 
           direction="right"
           clickFunction={ this.nextSlide }
-          glyph="&#9654;" />
+          glyph={StyleIcon({
+            style: 'right'
+          })}
+          //glyph="&#9654;" 
+          />
       </div>
     )
   }

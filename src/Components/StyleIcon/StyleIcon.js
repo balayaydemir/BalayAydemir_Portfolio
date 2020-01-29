@@ -11,7 +11,9 @@ import {
   faFile,
   faDumbbell,
   faHiking,
-  faUtensils
+  faUtensils,
+  faChevronRight,
+  faChevronLeft
 } from '@fortawesome/free-solid-svg-icons';
 
 const styleIconMap = {
@@ -26,6 +28,8 @@ const styleIconMap = {
   dumbbell: <FontAwesomeIcon className="fa_dumbbell" icon={faDumbbell} />,
   hiking: <FontAwesomeIcon className="fa_hiking" icon={faHiking} />,
   utensils: <FontAwesomeIcon className="fa_utensils" icon={faUtensils} />,
+  right: <FontAwesomeIcon className="fa_right" icon={faChevronRight} />,
+  left: <FontAwesomeIcon className="fa_left" icon={faChevronLeft} />,
   default: null
 }
 
