@@ -20,19 +20,19 @@ const Nav = () => {
         <ul id="navMenu">
           <Link to="/about" onClick={toggleMenuFunc}>
             <li 
-              className={window.location.href.includes('about') ? 'active' : undefined}>
+              className={window.location.href.includes('about') ? 'active' : 'inactive'}>
               About
             </li>
           </Link>
           <Link to="/projects" onClick={toggleMenuFunc}>
             <li 
-              className={window.location.href.includes('projects') ? 'active' : undefined}>
+              className={window.location.href.includes('projects') ? 'active' : 'inactive'}>
               Projects
             </li>
           </Link>
           <Link to="/contact" onClick={toggleMenuFunc}>
             <li 
-              className={window.location.href.includes('contact') ? 'active' : undefined}>
+              className={window.location.href.includes('contact') ? 'active' : 'inactive'}>
               Contact
             </li>
           </Link>
