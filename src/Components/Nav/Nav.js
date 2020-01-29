@@ -12,6 +12,7 @@ const Nav = () => {
 
   return (
     <nav role="navigation">
+      <img src="https://imgur.com/eurVpGU.jpg" alt="logo" className="logo" />
       <div id="toggleMenu">
         <input type="checkbox" checked={toggleMenu} onChange={toggleMenuFunc}/>
         {StyleIcon({

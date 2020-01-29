@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import StyleIcon from '../StyleIcon/StyleIcon';
 import ImageCarousel from '../ImageCarousel/ImageCarousel';
 import './Projects.css';
 
 const Projects = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  })
 
   const imagesMap = {
     default: ['https://imgur.com/Qt8c71C.jpg', 'https://imgur.com/DdQC2D1.jpg', 'https://imgur.com/px4gK86.jpg'],
