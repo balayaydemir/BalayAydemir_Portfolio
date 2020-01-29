@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   height: 800px;
+  margin-top: 60px;
 }
 
 .Contact__div {
@@ -13,18 +14,15 @@
 
 .Contact__container {
   margin: 10px 40px 10px 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   flex-basis: 50%;
-  border: 1px solid black;
+  border: 2px solid rgba(23, 33, 65, 0.644);
+  border-radius: 5px;
   padding: 10px 10px 10px;
 }
 
 .Contact__container h3 {
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .Contact__container svg {
@@ -34,13 +32,25 @@
 
 .Contact__container a {
   text-decoration: none;
-  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(23, 33, 65, 0.788)
 }
+
+.Contact__container a:hover {
+  background-color: rgba(255, 192, 203, 0.438);
+}
+
 
 @media only screen and (max-width: 800px) {
   .Contact__container {
     margin: 5px 5px 5px 5px;
+  }
 
+  .Contact__container a:hover {
+    background-color: rgba(206, 129, 135, 0.459);
   }
 }
 

@@ -18,9 +18,9 @@ const Nav = () => {
           style: `${toggleMenu ? 'close' : 'hamburger'}`
         })}
         <ul id="navMenu">
-          <Link to="/about" onClick={toggleMenuFunc}>
+          <Link to="/" onClick={toggleMenuFunc}>
             <li 
-              className={window.location.href.includes('about') ? 'active' : 'inactive'}>
+              className={!window.location.href.includes('projects') && !window.location.href.includes('contact') ? 'active' : 'inactive'}>
               About
             </li>
           </Link>

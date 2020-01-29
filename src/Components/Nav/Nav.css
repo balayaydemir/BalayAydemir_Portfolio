@@ -11,11 +11,11 @@
 #toggleMenu a {
   text-decoration: none;
   transition: color 0.3 ease;
-  color: black;
 }
 
-#toggleMenu a:hover {
-  color: crimson;
+
+#toggleMenu li:hover {
+  color: rgba(206, 129, 135, 0.459);
 }
 
 #toggleMenu input {
@@ -44,10 +44,10 @@
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  background: grey;
+  background: whitesmoke;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  background-color: grey;
+  background-color: whitesmoke;
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
@@ -55,8 +55,11 @@
 
 #navMenu li {
   padding: 10px 5px;
-  width: 200px;
+  width: 177px;
   font-size: 22px;
+  color: rgb(23, 33, 65);
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
 }
 
 #toggleMenu input:checked ~ ul {
@@ -64,6 +67,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .App {
+    background-color: whitesmoke;
+  }
+
   #toggleMenu input {
     display: none;
   }
@@ -72,8 +79,8 @@
     display: none;
   }
 
-  #toggleMenu a:hover {
-    color: black;
+  #toggleMenu li:hover {
+    color: rgb(23, 33, 65);
   }
 
   #navMenu li {
@@ -81,7 +88,7 @@
   }
 
   .active {
-    background-color: white;
+    background-color: whitesmoke;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
@@ -105,8 +112,8 @@
     background-image: linear-gradient(to left,
                                       transparent,
                                       transparent 50%,
-                                      pink 50%,
-                                      pink);
+                                      rgba(255, 192, 203, 0.596) 50%,
+                                      rgba(255, 192, 203, 0.596));
     background-position: 100% 0;
     background-size: 200% 100%;
     transition: all .40s ease-in;

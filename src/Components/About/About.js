@@ -20,6 +20,17 @@ const About = () => {
         })}
       </div>
       <h3>When I'm not hammering away at my keyboard I'm either powerlifting, hiking, or out discovering new restaurants in San Diego. </h3>
+      <div className="hobbyIcons">
+        {StyleIcon({
+            style: 'dumbbell'
+        })}
+        {StyleIcon({
+            style: 'hiking'
+        })}
+        {StyleIcon({
+            style: 'utensils'
+        })}
+      </div>
     </section>
   )
 }
