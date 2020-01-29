@@ -12,15 +12,16 @@ const Nav = () => {
 
   return (
     <nav role="navigation">
+      <img src="https://imgur.com/eurVpGU.jpg" alt="logo" className="logo" />
       <div id="toggleMenu">
         <input type="checkbox" checked={toggleMenu} onChange={toggleMenuFunc}/>
         {StyleIcon({
           style: `${toggleMenu ? 'close' : 'hamburger'}`
         })}
         <ul id="navMenu">
-          <Link to="/about" onClick={toggleMenuFunc}>
+          <Link to="/" onClick={toggleMenuFunc}>
             <li 
-              className={window.location.href.includes('about') ? 'active' : 'inactive'}>
+              className={!window.location.href.includes('projects') && !window.location.href.includes('contact') ? 'active' : 'inactive'}>
               About
             </li>
           </Link>

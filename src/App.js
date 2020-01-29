@@ -8,13 +8,14 @@ import Contact from './Components/Contact/Contact';
 
 
 function App() {
+
   return (
     <BrowserRouter>
       <div className="App">
         <Nav />
         <main className="App__main">
           <Switch>
-            <Route exact path={'/about'} component={About} />
+            <Route exact path={'/'} component={About} />
             <Route path={'/projects'} component={Projects} />
             <Route path={'/contact'} component={Contact} /> 
           </Switch>

@@ -4,7 +4,7 @@ import './ImageCarousel.css';
 const ImageSlide = ({ url }) => {
   const styles = {
     backgroundImage: `url(${url})`,
-    backgroundSize: 'cover',
+    backgroundSize: 'contain',
     backgroundPosition: 'center'
   };
 

@@ -8,7 +8,10 @@ import {
   faUserFriends,
   faCode,
   faEnvelopeOpenText,
-  faFile
+  faFile,
+  faDumbbell,
+  faHiking,
+  faUtensils
 } from '@fortawesome/free-solid-svg-icons';
 
 const styleIconMap = {
@@ -20,6 +23,9 @@ const styleIconMap = {
   code: <FontAwesomeIcon className="fa_code" icon={faCode} />,
   email: <FontAwesomeIcon className="fa_email" icon={faEnvelopeOpenText} />,
   resume: <FontAwesomeIcon className="fa_resume" icon={faFile} />,
+  dumbbell: <FontAwesomeIcon className="fa_dumbbell" icon={faDumbbell} />,
+  hiking: <FontAwesomeIcon className="fa_hiking" icon={faHiking} />,
+  utensils: <FontAwesomeIcon className="fa_utensils" icon={faUtensils} />,
   default: null
 }
 

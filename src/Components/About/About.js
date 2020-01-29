@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import StyleIcon from '../StyleIcon/StyleIcon';
 import './About.css';
 
 const About = () => {
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  })
+
   return (
     <section className="About">
       <div id="About__photo">
         <img src="https://imgur.com/MfVbDpC.jpg" alt="balay aydemir" />
-        <h2>Hello! My name is Balay and I am a Full Stack Developer.</h2>
+        <h2>Hello! My name is Balay and I'm a Full Stack Developer.</h2>
       </div>
       <div className="Projects__proj_description">
         {StyleIcon({
@@ -20,6 +24,17 @@ const About = () => {
         })}
       </div>
       <h3>When I'm not hammering away at my keyboard I'm either powerlifting, hiking, or out discovering new restaurants in San Diego. </h3>
+      <div className="hobbyIcons">
+        {StyleIcon({
+            style: 'dumbbell'
+        })}
+        {StyleIcon({
+            style: 'hiking'
+        })}
+        {StyleIcon({
+            style: 'utensils'
+        })}
+      </div>
     </section>
   )
 }
