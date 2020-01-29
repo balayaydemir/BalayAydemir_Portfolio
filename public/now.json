@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "alias": "balayaydemir-portfolio",
   "name": "balayaydemir-portfolio",
   "routes": [
       { "handle": "filesystem" },
