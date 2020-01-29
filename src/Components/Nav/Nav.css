@@ -70,6 +70,10 @@
     display: none;
   }
 
+  #toggleMenu a:hover {
+    color: black;
+  }
+
   .active {
     background-color: white;
     border-top-left-radius: 10px;
