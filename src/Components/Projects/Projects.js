@@ -5,11 +5,15 @@ import './Projects.css';
 
 const Projects = () => {
 
+  const imagesMap = {
+    default: ['https://imgur.com/Qt8c71C.jpg', 'https://imgur.com/DdQC2D1.jpg', 'https://imgur.com/px4gK86.jpg']
+  }
+
   return (
     <section className="Projects">
       <div className="Projects__container">
         <h2>manageLazily</h2>
-        <ImageCarousel imgUrls={['https://imgur.com/Qt8c71C.jpg', 'https://imgur.com/DdQC2D1.jpg', 'https://imgur.com/px4gK86.jpg']} />
+        <ImageCarousel imgUrls={imagesMap.default} />
         <div className="Projects__proj_description">
           {StyleIcon({
             style: 'leftQuote'
@@ -32,8 +36,10 @@ const Projects = () => {
           </li>
         </ul>
       </div>
+      <div className="separator"></div>
       <div className="Projects__container">
         <h2>Eatabout</h2>
+        <ImageCarousel imgUrls={imagesMap.default} />
         <div className="Projects__proj_description">
           {StyleIcon({
             style: 'leftQuote'
@@ -58,8 +64,10 @@ const Projects = () => {
           </li>
         </ul>
       </div>
+      <div className="separator"></div>
       <div className="Projects__container">
         <h2>Spaced Repetition App</h2>
+        <ImageCarousel imgUrls={imagesMap.default} />
         <div className="Projects__proj_description">
           {StyleIcon({
             style: 'leftQuote'
@@ -84,8 +92,10 @@ const Projects = () => {
           </li>
         </ul>
       </div>
+      <div className="separator"></div>
       <div className="Projects__container">
         <h2>Bookmark App</h2>
+        <ImageCarousel imgUrls={imagesMap.default} />
         <div className="Projects__proj_description">
           {StyleIcon({
             style: 'leftQuote'

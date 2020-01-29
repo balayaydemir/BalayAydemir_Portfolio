@@ -51,6 +51,10 @@
   padding: 2px;
 }
 
+.separator {
+  border: 1px solid black;
+}
+
 @media only screen and (max-width: 800px) {
   .Projects__container p {
     text-align: center;
