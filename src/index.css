@@ -87,7 +87,7 @@ a, button {
   content: "";
   background-image: url("https://imgur.com/0NTToBq.jpg");
   background-size: cover;
-  opacity: 0.5;
+  opacity: 0.4;
   top: 0;
   left: 0;
   bottom: 0;
@@ -133,7 +133,7 @@ footer {
     content: "";
     background-image: url("https://imgur.com/0NTToBq.jpg");
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.6;
     top: 0;
     left: 0;
     bottom: 0;
