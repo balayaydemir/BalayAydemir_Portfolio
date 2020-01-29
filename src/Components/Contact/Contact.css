@@ -1,0 +1,50 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.Contact__div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Contact__container {
+  margin: 10px 40px 10px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  border: 1px solid black;
+  padding: 10px 10px 10px;
+}
+
+.Contact__container h3 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.Contact__container svg {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.Contact__container a {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 800px) {
+  .Contact__container {
+    margin: 5px 5px 5px 5px;
+
+  }
+}
+
+
+
+
+

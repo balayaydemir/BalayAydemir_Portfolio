@@ -18,9 +18,24 @@ const Nav = () => {
           style: `${toggleMenu ? 'close' : 'hamburger'}`
         })}
         <ul id="navMenu">
-          <Link to="/" onClick={toggleMenuFunc}><li>About</li></Link>
-          <Link to="/projects" onClick={toggleMenuFunc}><li>Projects</li></Link>
-          <Link to="/contact" onClick={toggleMenuFunc}><li>Contact</li></Link>
+          <Link to="/about" onClick={toggleMenuFunc}>
+            <li 
+              className={window.location.href.includes('about') ? 'active' : undefined}>
+              About
+            </li>
+          </Link>
+          <Link to="/projects" onClick={toggleMenuFunc}>
+            <li 
+              className={window.location.href.includes('projects') ? 'active' : undefined}>
+              Projects
+            </li>
+          </Link>
+          <Link to="/contact" onClick={toggleMenuFunc}>
+            <li 
+              className={window.location.href.includes('contact') ? 'active' : undefined}>
+              Contact
+            </li>
+          </Link>
         </ul>
       </div>
     </nav>
