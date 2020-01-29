@@ -45,7 +45,6 @@ export default class ImageCarousel extends Component {
           glyph={StyleIcon({
             style: 'left'
           })}
-          // glyph="&#9664;" 
           />
 
         <ImageSlide url={ this.props.imgUrls[this.state.currentImageIndex] } />
@@ -56,7 +55,6 @@ export default class ImageCarousel extends Component {
           glyph={StyleIcon({
             style: 'right'
           })}
-          //glyph="&#9654;" 
           />
       </div>
     )
