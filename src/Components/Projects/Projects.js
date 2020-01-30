@@ -117,7 +117,7 @@ const Projects = () => {
             <span>[ React ]</span>
           </li>
           <li className="appLinks">
-            <a href="https://michael-balay-spaced-repetition.now.sh/register" target="_blank" rel="noopener noreferrer">Live App</a>
+            <a href="https://turkishly.now.sh/register" target="_blank" rel="noopener noreferrer">Live App</a>
             <a href="https://github.com/thinkful-ei-heron/Balay-Michael-spaced-repetition" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
           </li>
         </ul>
