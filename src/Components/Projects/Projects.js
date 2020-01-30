@@ -30,12 +30,12 @@ const Projects = () => {
       'https://imgur.com/oEzQhwF.jpg',
       'https://imgur.com/RJXeVDL.jpg'
     ],
-    spacedRepetition: [
-      'https://imgur.com/F8OpBNE.jpg',
-      'https://imgur.com/t4P7EQ3.jpg',
-      'https://imgur.com/khPTXhN.jpg',
-      'https://imgur.com/igYjojB.jpg',
-      'https://imgur.com/9t27Nh9.jpg'
+    turkishly: [
+      'https://imgur.com/v0Ww62E.jpg',
+      'https://imgur.com/jZok5p3.jpg',
+      'https://imgur.com/qaRLhA2.jpg',
+      'https://imgur.com/7MYGNrv.jpg',
+      'https://imgur.com/G57qS6r.jpg'
     ]
   }
 
@@ -96,13 +96,13 @@ const Projects = () => {
       </div>
       <div className="separator"></div>
       <div className="Projects__container">
-        <h2>Spaced Repetition App</h2>
-        <ImageCarousel imgUrls={imagesMap.spacedRepetition} />
+        <h2>Turkishly</h2>
+        <ImageCarousel imgUrls={imagesMap.turkishly} />
         <div className="Projects__proj_description">
           {StyleIcon({
             style: 'leftQuote'
           })}
-          <p>Spaced repetition is an application that helps users learn a new language by utilizing the spaced repetition technique. Users can sign up and practice learning words in Turkish. Users are notified if they have answered the word correctly or incorrectly and their scores are updated accordingly.</p>
+          <p>Turkishly is an application that helps users learn a new language by utilizing the spaced repetition technique. Users can sign up and practice learning words in Turkish. Users are notified if they have answered the word correctly or incorrectly and their scores are updated accordingly.</p>
           {StyleIcon({
             style: 'rightQuote'
           })}
@@ -124,7 +124,7 @@ const Projects = () => {
       </div>
       <div className="separator"></div>
       <div className="Projects__container">
-        <h2>Bookmark App</h2>
+        <h2>Bookmark</h2>
         <ImageCarousel imgUrls={imagesMap.bookmark} />
         <div className="Projects__proj_description">
           {StyleIcon({

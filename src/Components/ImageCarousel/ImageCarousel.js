@@ -36,7 +36,6 @@ export default class ImageCarousel extends Component {
   }
 
   render() {
-    console.log(this.props.imgUrls)
     return (
       <div className="carousel">
         <Arrow 
