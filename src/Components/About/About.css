@@ -15,8 +15,9 @@
   height: 440px;
 }
 
-p {
+.about {
   text-indent: 20px;
+  text-align: left;
 }
 
 h3 {
@@ -36,11 +37,11 @@ h3 {
 }
 
 .fa_dumbbell, .fa_hiking, .fa_utensils {
-  font-size: 3em;
+  font-size: 2em;
 }
 
-@media only screen and (max-width: 812px) {
+@media only screen and (min-width: 812px) {
   .fa_dumbbell, .fa_hiking, .fa_utensils {
-    font-size: 2em;
+    font-size: 3em;
   }
 }

@@ -13,7 +13,7 @@
 }
 
 .Contact__container {
-  margin: 10px 40px 10px 40px;
+  margin: 5px 5px 5px 5px;
   flex-basis: 50%;
   border: 2px solid rgba(23, 33, 65, 0.644);
   border-radius: 5px;
@@ -40,17 +40,17 @@
 }
 
 .Contact__container a:hover {
-  background-color: rgba(255, 192, 203, 0.438);
+  background-color: rgba(206, 129, 135, 0.459);
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 800px) {
   .Contact__container {
-    margin: 5px 5px 5px 5px;
+    margin: 10px 40px 10px 40px;
   }
 
   .Contact__container a:hover {
-    background-color: rgba(206, 129, 135, 0.459);
+    background-color: rgba(255, 192, 203, 0.438);
   }
 }
 
