@@ -38,7 +38,7 @@ const Contact = () => {
           </a>
         </div>
         <div className="Contact__container">
-          <a href="https://balayaydemir.github.io/resume/index.html" target="_blank" rel="noopener noreferrer">
+          <a href="https://balayaydemir.github.io/resume/" target="_blank" rel="noopener noreferrer">
             {StyleIcon({
               style: 'resume'
             })}
