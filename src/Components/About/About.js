@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import StyleIcon from '../StyleIcon/StyleIcon';
+import headshot from '../../Images/headshot.jpeg';
 import './About.css';
 
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
   return (
     <section className="About">
       <div id="About__photo">
-        <img src="https://imgur.com/MfVbDpC.jpg" alt="balay aydemir" />
+        <img src={headshot} alt="balay aydemir" />
         <h2>Hello! My name is Balay and I'm a Full Stack Developer.</h2>
       </div>
       <div className="Projects__proj_description">
